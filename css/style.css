@@ -102,6 +102,7 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
+    text-align: left;
 }
 
 .tes-girls{
@@ -130,7 +131,7 @@ body{
 .tes-girls p {
     font-size: 0.9rem;
     opacity: 0.9;
-    text-align: center;
+    text-align: left;
 }
 
 .rating {
@@ -157,9 +158,10 @@ body{
 
 .arrows {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    gap: 4px;
     width: 100%;
-    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .arrows button {
@@ -168,6 +170,9 @@ body{
     font-size: 1.5rem;
     cursor: pointer;
     color: #0078d7;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 80px,20px;
 }
 
 /* faq section start */
